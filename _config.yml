@@ -1,4 +1,11 @@
 title: Data Science Portfolio
-description: Documenting my learning in Data Structures
+description: Documenting my learning in Data Science
 theme: jekyll-theme-minimal
+logo: profile.png
+author: Eshan Khandekar
 show_downloads: false
+github:
+  is_project_page: false
+social_links:
+  github: https://github.com/eshandk
+  linkedin: https://linkedin.com/in/eshan-khandekar-b6864333a
