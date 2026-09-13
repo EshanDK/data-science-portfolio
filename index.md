@@ -1,7 +1,7 @@
 # Eshan Khandekar
 Data Science Student
 ---
-# About Me
+## About Me
 
 **Background & Journey**
 Hello! I am a sophomore at the University of North Carolina at Charlotte pursuing a Bachelor of Science in Data Science alongside dual minors in Mathematics and Bioinformatics. My journey has involved significant personal transitions, including relocating from New York down to Charlotte, North Carolina. Before shifting my primary focus toward academia and data science, I spent years competing as a high-level Taekwondo athlete. Competing in a rigorous combat sport taught me deep discipline, strategic mental agility, focus under pressure, and relentless resilience. These athletic values translate directly into my approach toward complex quantitative problem-solving, mathematical proofs, and large-scale computational challenges today.
