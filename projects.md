@@ -36,11 +36,11 @@ To make sure the integrity of the analysis, several cleaning steps were executed
 
 To address how runtime impacts audience scores across genres, we must first establish a baseline. The bar chart reveals that **Animation** holds the highest average audience rating by a significant margin (~9.0), followed by **Action** (~7.5) and **Horror** (~7.1). Conversely, **Romance** and **Science Fiction** sit at the lower baseline end, both averaging around 6.6.
 
-![Baseline: Average Audience Rating by Primary Genre](images/Horizontal Bar Chart.png)
+![Baseline: Average Audience Rating by Primary Genre](bar_chart.png)
 
-Building on that baseline, the scatter plot examining runtime versus rating demonstrates how movie length influences scores across specific genres. The visualization shows a tight cluster of mid-tier rated films—including **Horror**, **Crime**, and **Romance**—spanning the 103 to 111-minute runtime mark with scores hovering between 6.6 and 7.1. High-performing **Animation** films achieve top-tier ratings (>9.0) at concise runtimes under 100 minutes, whereas **Action** reaches its ~7.5 baseline at a longer runtime of 132 minutes. Notably, **Science Fiction** exhibits the widest rating variance in the dataset, swinging dramatically from a 4.0 rating at 91 minutes up to an 8.6 rating at 157 minutes.
+Building on that baseline, the scatter plot examining runtime versus rating demonstrates how movie length influences scores across specific genres. The visualization shows a tight cluster of mid-tier rated films—including **Horror**, **Crime**, and **Romance**—spanning the 103 to 111-minute runtime mark with scores hovering between 6.6 and 7.1. High-performing **Animation** films achieve top-tier ratings (>9.0) at concise run times under 100 minutes, whereas **Action** reaches its ~7.5 baseline at a longer runtime of 132 minutes. Notably, **Science Fiction** exhibits the widest rating variance in the dataset, swinging dramatically from a 4.0 rating at 91 minutes up to an 8.6 rating at 157 minutes.
 
-![Movie Runtime vs Audience Rating Across Genres](images/scatter_plot.png)
+![Movie Runtime vs Audience Rating Across Genres](scatter_plot.png)
 
 ### 6. Limitations, Ethics, and Reflection
 While TMDB offers a massive repository of data, several limitations exist:
