@@ -1,15 +1,19 @@
 # Eshan Khandekar
-DS Student - UG Sophomore
-| UNC Charlotte
+Data Science Student
 ---
-## About Me
-Hello! I am Eshan Khandekar, a Sophomore at the University of North Carolina at Charlotte pursuing a Bachelor of Science in Data Science. Driven by a passion for leveraging data to solve real-world problems, my primary academic and career focus lies at the intersection of HealthTech, machine learning, and clinical data analysis.
+# About Me
 
-My journey into data science is rooted in analytical problem-solving and hands-on project development. Recently, I built an end-to-end Python machine learning pipeline using Scikit-Learn and TextBlob NLP to predict patient drug treatment efficacy across 160,000+ clinical records, achieving an 87% recall on positive drug responses. Additionally, as part of the Inspirit AI Scholars program taught by Stanford and MIT researchers, I spearheaded a team project utilizing Convolutional Neural Networks (CNNs) and computer vision to detect distracted driving patterns.
+**Background & Journey**
+Hello! I am a sophomore at the University of North Carolina at Charlotte pursuing a Bachelor of Science in Data Science alongside dual minors in Mathematics and Bioinformatics. My journey has involved significant personal transitions, including relocating from New York down to Charlotte, North Carolina. Before shifting my primary focus toward academia and data science, I spent years competing as a high-level Taekwondo athlete. Competing in a rigorous combat sport taught me deep discipline, strategic mental agility, focus under pressure, and relentless resilience. These athletic values translate directly into my approach toward complex quantitative problem-solving, mathematical proofs, and large-scale computational challenges today.
 
-Beyond raw technical modeling, I place strong emphasis on quantitative communication and mentorship. As a Mathematics Instructor at Mathnasium, I translate complex mathematical principles into actionable concepts for over 20 students weekly. My background in competitive Taekwondo—where I earned a 3rd Degree Black Belt and placed 3rd nationally—has instilled in me the discipline, resilience, and focus required to tackle complex analytical challenges.
+**Experience & Technical Skills**
+My background bridges active communication, instruction, and hands-on technical application. As a former math tutor at Mathnasium, I worked with diverse student age groups to break down abstract, intimidating mathematical concepts into intuitive, digestible steps. This experience strengthened my foundational analytical skills while sharpening my ability to communicate technical topics clearly. On the technical side, my core skill set includes Python, SQL, Git, and data visualization tools like Seaborn and Matplotlib. Recently, I executed an Exploratory Data Analysis (EDA) project centered around The Movie Database (TMDB) REST API. In this project, I built automated data retrieval pipelines, handled dataset cleaning, and visualized complex relationships between genre runtimes and audience satisfaction scores.
 
-Looking ahead, my career goal is to secure internships and research positions in clinical data science and health informatics, where I can apply predictive modeling to improve patient outcomes and healthcare operations. Feel free to explore my exploratory data analysis projects hosted on this site, connect with me on LinkedIn, or review my open-source code on GitHub! 
+**Career Goals & Medical Aspirations**
+Looking ahead, my career path sits directly at the intersection of data science, bioinformatics, computational genomics, and clinical medicine. I am deeply passionate about leveraging predictive modeling, statistical learning, and bioinformatic pipelines to solve critical healthcare challenges. My ultimate ambition is to attend medical school and become either a board-certified pathologist or oncologist. By integrating advanced data science methodologies with clinical oncology and pathology, I aim to contribute to early disease detection, genomic sequencing, precision medicine, and the development of targeted, data-driven cancer therapies.
+
+---
+*Connect with me on [LinkedIn](www.linkedin.com/in/eshan-khandekar) or explore my project code on [GitHub](https://github.com/EshanDK).*
 
 ---
 ## Portfolio
