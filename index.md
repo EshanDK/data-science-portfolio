@@ -1,6 +1,6 @@
 # Eshan Khandekar
 DS Student - UG Sophomore
-UNC Charlotte
+| UNC Charlotte
 ---
 ## About Me
 Hello! I am Eshan Khandekar, a Sophomore at the University of North Carolina at Charlotte pursuing a Bachelor of Science in Data Science. Driven by a passion for leveraging data to solve real-world problems, my primary academic and career focus lies at the intersection of HealthTech, machine learning, and clinical data analysis.
