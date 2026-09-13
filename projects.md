@@ -32,10 +32,15 @@ To make sure the integrity of the analysis, several cleaning steps were executed
 2. **Filtering Vote Counts:** Movies with fewer than 100 votes were removed. This trade-off reduces the overall dataset size but prevents obscure movies with a single 10/10 rating from artificially skewing the runtime-to-rating correlations.
 3. **Primary Genre Extraction:** Because films often feature multiple overlapping genres, only the first (primary) `genre_id` was extracted to allow for clean categorical grouping when testing consistency across genres.
 
-### 4 & 5. Visualizations, Insights, and Storytelling
-To address how runtime impacts audience scores across genres, we must first establish a baseline. The bar chart reveals that audiences inherently rate certain genres (like Drama and Animation) higher on average than others (like Action or Horror).
+## 4 & 5. Visualizations, Insights, and Storytelling
 
-Building on that baseline, the scatter plot examining runtime versus rating demonstrates how movie length influences these scores. The visualization shows a dense cluster of mid-rated films (6.5 to 7.5) spanning the 100 to 115-minute mark. While a longer runtime does not automatically guarantee a better rating, there is a visible trend: genres typically associated with longer runtime (such as Drama) maintain their higher rating baseline, whereas genres like Science Fiction show massive variance, swinging from a 4.0 rating at shorter runtime to an 8.6 at longer runtime.
+To address how runtime impacts audience scores across genres, we must first establish a baseline. The bar chart reveals that **Animation** holds the highest average audience rating by a significant margin (~9.0), followed by **Action** (~7.5) and **Horror** (~7.1). Conversely, **Romance** and **Science Fiction** sit at the lower baseline end, both averaging around 6.6.
+
+![Baseline: Average Audience Rating by Primary Genre](images/bar_chart.png)
+
+Building on that baseline, the scatter plot examining runtime versus rating demonstrates how movie length influences scores across specific genres. The visualization shows a tight cluster of mid-tier rated films—including **Horror**, **Crime**, and **Romance**—spanning the 103 to 111-minute runtime mark with scores hovering between 6.6 and 7.1. High-performing **Animation** films achieve top-tier ratings (>9.0) at concise runtimes under 100 minutes, whereas **Action** reaches its ~7.5 baseline at a longer runtime of 132 minutes. Notably, **Science Fiction** exhibits the widest rating variance in the dataset, swinging dramatically from a 4.0 rating at 91 minutes up to an 8.6 rating at 157 minutes.
+
+![Movie Runtime vs Audience Rating Across Genres](images/scatter_plot.png)
 
 ### 6. Limitations, Ethics, and Reflection
 While TMDB offers a massive repository of data, several limitations exist:
