@@ -1,6 +1,5 @@
 # Eshan Khandekar
-DS Student - UG Sophomre
-
+DS Student - UG Sophomore
 UNC Charlotte
 ---
 ## About Me
