@@ -11,7 +11,7 @@ Furthermore, I want to look into one important question that I want to answer fr
 **How does a movie's runtime correlate with its audience rating and how does this relationship remain consistent across different genres**
 
 Why is this question relevent? Well, this type of data can be really improtant for film studios, producers, and streaming platforms looking to optimize production budgets and find their ideal length of a film based on what movie genre they want to make to maxmize audience satisfaction.
----
+
 ## 2. Data Description
 This project relies on data extracted directly from The Movie Database (TMDB API). The unit of analysis is individual feature films.
 
