@@ -46,4 +46,4 @@ While TMDB offers a massive repository of data, several limitations exist:
 ### 7. Code and Transparency
 * **GitHub Repository:** (https://github.com/EshanDK/data-science-portfolio)
 * **Data Source:** The Movie Database (TMDB) API
-* **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / cocising my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous materials/files made in class on canvas or previous VS Code files in DTSC 1301/1302.
+* **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / to concise my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous materials/files made in class on canvas or previous VS Code files in DTSC 1301/1302.
