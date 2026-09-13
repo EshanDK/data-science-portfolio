@@ -1,5 +1,5 @@
 # Eshan Khandekar
-Data Science Student  
+DS Student - UG Sophomre
 UNC Charlotte
 ---
 ## About Me
