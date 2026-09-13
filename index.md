@@ -13,7 +13,7 @@ My background bridges active communication, instruction, and hands-on technical 
 Looking ahead, my career path sits directly at the intersection of data science, bioinformatics, computational genomics, and clinical medicine. I am deeply passionate about leveraging predictive modeling, statistical learning, and bioinformatic pipelines to solve critical healthcare challenges. My ultimate ambition is to attend medical school and become either a board-certified pathologist or oncologist. By integrating advanced data science methodologies with clinical oncology and pathology, I aim to contribute to early disease detection, genomic sequencing, precision medicine, and the development of targeted, data-driven cancer therapies.
 
 ---
-*Connect with me on [LinkedIn](www.linkedin.com/in/eshan-khandekar) or explore my project code on [GitHub](https://github.com/EshanDK).*
+*Connect with me on [LinkedIn](https://www.linkedin.com/in/eshan-khandekar/) or explore my project code on [GitHub](https://github.com/EshanDK).*
 
 ---
 ## Portfolio
