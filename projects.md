@@ -35,7 +35,7 @@ To make sure the integrity of the analysis, several cleaning steps were executed
 ### 4 & 5. Visualizations, Insights, and Storytelling
 To address how runtime impacts audience scores across genres, we must first establish a baseline. The bar chart reveals that audiences inherently rate certain genres (like Drama and Animation) higher on average than others (like Action or Horror).
 
-Building on that baseline, the scatter plot examining runtime versus rating demonstrates how movie length influences these scores. The visualization shows a dense cluster of mid-rated films (6.5 to 7.5) spanning the 100 to 115-minute mark. While a longer runtime does not automatically guarantee a better rating, there is a visible trend: genres typically associated with longer runtimes (such as Drama) maintain their higher rating baseline, whereas genres like Science Fiction show massive variance, swinging from a 4.0 rating at shorter runtimes to an 8.6 at longer runtimes.
+Building on that baseline, the scatter plot examining runtime versus rating demonstrates how movie length influences these scores. The visualization shows a dense cluster of mid-rated films (6.5 to 7.5) spanning the 100 to 115-minute mark. While a longer runtime does not automatically guarantee a better rating, there is a visible trend: genres typically associated with longer runtime (such as Drama) maintain their higher rating baseline, whereas genres like Science Fiction show massive variance, swinging from a 4.0 rating at shorter runtime to an 8.6 at longer runtime.
 
 ### 6. Limitations, Ethics, and Reflection
 While TMDB offers a massive repository of data, several limitations exist:
@@ -44,6 +44,6 @@ While TMDB offers a massive repository of data, several limitations exist:
 * **Next Steps:** If given more time, I would run regression lines for each specific genre on the scatter plot to see if the correlation strength changes dramatically between categories.
 
 ### 7. Code and Transparency
-* **GitHub Repository:** [Insert your GitHub URL here]
+* **GitHub Repository:** (https://github.com/EshanDK/data-science-portfolio)
 * **Data Source:** The Movie Database (TMDB) API
-* **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / cocising my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous material made in class on canvas or previous VS Code files.
+* **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / cocising my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous materials/files made in class on canvas or previous VS Code files in DTSC 1301/1302.
