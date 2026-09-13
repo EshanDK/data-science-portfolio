@@ -19,3 +19,4 @@ Looking ahead, my career path sits directly at the intersection of data science,
 ## Portfolio
 - [Blog](blog.md)
 - [Projects](projects.md)
+- [Resume](EshanDK's_Resume.pdf)
