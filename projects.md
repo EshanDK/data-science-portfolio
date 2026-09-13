@@ -2,7 +2,7 @@
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 
 ---
-## Project 1
+## Project 1 - Personal Portfolio (Part 1)
 
 ### 1. Defining the Problem
 The main focus is to evaluate the reactions of the audience and find patterns across multiple movie genres using data from the TMDB API.
