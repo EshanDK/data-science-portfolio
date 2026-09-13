@@ -10,6 +10,7 @@ My journey into data science is rooted in analytical problem-solving and hands-o
 Beyond raw technical modeling, I place strong emphasis on quantitative communication and mentorship. As a Mathematics Instructor at Mathnasium, I translate complex mathematical principles into actionable concepts for over 20 students weekly. My background in competitive Taekwondo—where I earned a 3rd Degree Black Belt and placed 3rd nationally—has instilled in me the discipline, resilience, and focus required to tackle complex analytical challenges.
 
 Looking ahead, my career goal is to secure internships and research positions in clinical data science and health informatics, where I can apply predictive modeling to improve patient outcomes and healthcare operations. Feel free to explore my exploratory data analysis projects hosted on this site, connect with me on LinkedIn, or review my open-source code on GitHub! 
+
 ---
 ## Portfolio
 - [Blog](blog.md)
