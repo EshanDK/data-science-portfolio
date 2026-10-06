@@ -52,3 +52,65 @@ While TMDB offers a massive repository of data, several limitations exist:
 * **GitHub Repository:** https://github.com/EshanDK/data-science-portfolio
 * **Data Source:** The Movie Database (TMDB) API
 * **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / to concise my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous materials/files made in class on canvas or previous VS Code files in DTSC 1301/1302.
+
+---
+## Project 2 - Personal Portfolio (Part 2)
+
+### 1. Defining the Problem
+In competitive esports like Valorant, every player fills a distinct role—whether that is entry-fragging on a Duelist, gathering info as an Initiator, locking down sites with a Sentinel, or smoking off sightlines on a Controller. A super interesting question in esports analytics is how player demographics play into these performance choices. 
+
+Specifically, I wanted to answer two main questions:
+1. How does a player's age correlate with their Average Combat Score (ACS)?
+2. To what extent can player age predict their primary in-game role?
+
+Why does this matter? Well, understanding how age relates to role specialization and overall combat output can actually be pretty huge for esports orgs, coaches, and analysts looking to build a balanced roster. Figuring out if younger players tend to lean toward aggressive Duelist roles or if older players shift into supportive, game-sense roles gives us a cool, data-driven look into career trajectories and team setups.
+
+### 2. Background and Context
+Tactical shooters demand a mix of raw motor reflexes, solid map awareness, and split-second decision-making. Research into reaction times and gaming performance shows that pure reaction speeds usually peak in a player's late teens to early twenties, after which players start relying a lot more on positioning, experience, and game sense. 
+
+In Valorant, the roles ask for totally different playstyles:
+* **Duelists** rely heavily on fast reaction times and taking aggressive opening fights.
+* **Controllers** and **Sentinels** focus way more on utility setups, map control, and macro play.
+
+This project builds on that domain knowledge to see if these age patterns actually pop up when looking at real professional match data.
+
+**Academic Context & References:**
+1. Thompson, J. J., Blair, M. R., & Henrey, A. J. (2014). Over the hill at 24: Longitudinal change in reaction time performance in *StarCraft 2*. *PLOS ONE*, 9(4), e94215.
+2. Pluss, M. A., Novak, A. R., Bennett, K. J., Fransen, J., & Coutts, A. J. (2021). Signal over noise: Exploring physical and cognitive determinants of esports performance. *Journal of Sports Sciences*, 39(23), 2704-2716.
+3. Taylor, T. L. (2012). *Raising the stakes: E-sports and the professionalization of computer gaming*. MIT Press.
+
+### 3. Data Description
+This project relies on data extracted directly from the VLRdevAPI, which tracks professional Valorant match statistics, tournament data, and player profiles.
+
+**Key Variables Conceptualized and Operationalized**
+* **Primary Role:** The main role category (Duelist, Initiator, Controller, Sentinel) assigned based on official match data, measured by encoding role strings into numerical codes (0-3).
+* **ACS (Average Combat Score):** Overall in-game performance, measured as a continuous numeric score from official match histories.
+* **Player Age:** Continuous predictor variable measuring exact player age in years from verified player records.
+
+### 4. Data Preparation and Feature Selection
+To make sure the integrity of the analysis, several cleaning steps were executed using pandas:
+1. **Handling Missing Values and Duplicates:** Any rows missing age, ACS, or agent assignments were dropped, and duplicate player entries were removed to preserve data integrity.
+2. **Target Encoding:** Categorical role strings were mapped into discrete integer codes (`Duelist: 0`, `Initiator: 1`, `Controller: 2`, `Sentinel: 3`) to allow processing by Scikit-Learn classifiers.
+3. **Train/Test Split:** Data was separated using an 80/20 train-test split with `random_state=42` to ensure reproducibility and prevent data leakage.
+
+### 5 & 6. Visualizations, Insights, and Storytelling
+Looking at the summary stats, the average player age sat right around 22.5 years old, ranging from 18 to 28. Average Combat Scores (ACS) centered around a mean of ~210, stretching anywhere from 170 up to nearly 300 (with one high peak around 294 at age 24).
+
+![Player Age vs Average Combat Score](scatter_plot.png)
+
+Looking at the scatter plot examining player age versus ACS, the fitted linear regression line shows a subtle positive slope coefficient of +1.60 and an intercept of 174.15. Moving across the age spectrum, the fitted baseline rises from roughly 203 ACS at age 18 up to around 219 ACS at age 28. However, the data points show widespread variance across all age brackets, resulting in an MSE of 316.53 and an R-squared score of -0.09, proving that age alone is not a reliable predictor for combat performance.
+
+![Classification Tree Player Age predicting In-Game Role](decision_tree.png)
+
+Building on that baseline, the Decision Tree Classifier predicts player in-game roles based on age splits, achieving an overall accuracy of 30% (0.30) on the test set. The tree sets clear decision boundaries at age thresholds of <= 21.5, <= 20.5, <= 24.5, and <= 26.5. Duelist (class 0) performed best with a precision of 0.67 and recall of 0.50 (F1-score of 0.57). Younger age branches (<= 20.5) lean toward Initiators and Duelists, while older decision nodes (<= 24.5 and <= 26.5) shift players into Controller and Sentinel categories.
+
+### 7. Limitations, Ethics, and Reflection
+While VLRdevAPI offers a great repository of esports data, several limitations exist:
+* **Role Simplification:** Assigning a player just one primary role strips away meaning. Flex players swap agents depending on map layouts, so forcing them into a single category hides their tactical adaptability.
+* **Demographic Bias & Patch Shifts:** API data reflects current meta trends, which change constantly whenever balance patches drop.
+* **Next Steps:** If given more time, I would pull in extra features like headshot percentage, utility usage stats, and tournament tier levels to build a multi-feature random forest model.
+
+### 8. Code and Transparency
+* **GitHub Repository:** https://github.com/EshanDK/data-science-portfolio
+* **Data Source:** VLRdevAPI (Documentation: https://vlrdevapi.pages.dev/docs/)
+* **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / to concise my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous materials/files made in class on canvas or previous VS Code files in DTSC 1301/1302.
