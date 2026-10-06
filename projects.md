@@ -2,7 +2,7 @@
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 
 ---
-## Project 1 - Personal Portfolio (Part 1)
+## Project 1 - Personal Portfolio
 
 ### 1. Defining the Problem
 The main focus is to evaluate the reactions of the audience and find patterns across multiple movie genres using data from the TMDB API.
@@ -54,7 +54,7 @@ While TMDB offers a massive repository of data, several limitations exist:
 * **AI Usage Disclosure:** Generative AI was utilized strictly for reformatting / to concise my words, and for formatting my code + understanding certain elements to make sure they were used properly. All original ideas were made by me as well as all references come from previous materials/files made in class on canvas or previous VS Code files in DTSC 1301/1302.
 
 ---
-## Project 2 - Personal Portfolio (Part 2)
+## Project 2 - Personal Portfolio
 
 ### 1. Defining the Problem
 In competitive esports like Valorant, every player fills a distinct role—whether that is entry-fragging on a Duelist, gathering info as an Initiator, locking down sites with a Sentinel, or smoking off sightlines on a Controller. A super interesting question in esports analytics is how player demographics play into these performance choices. 
