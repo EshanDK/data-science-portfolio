@@ -96,11 +96,11 @@ To make sure the integrity of the analysis, several cleaning steps were executed
 ### 5 & 6. Visualizations, Insights, and Storytelling
 Looking at the summary stats, the average player age sat right around 22.5 years old, ranging from 18 to 28. Average Combat Scores (ACS) centered around a mean of ~210, stretching anywhere from 170 up to nearly 300 (with one high peak around 294 at age 24).
 
-![Player Age vs Average Combat Score](scatter_plot.png)
+![Player Age vs Average Combat Score](linreg.png)
 
 Looking at the scatter plot examining player age versus ACS, the fitted linear regression line shows a subtle positive slope coefficient of +1.60 and an intercept of 174.15. Moving across the age spectrum, the fitted baseline rises from roughly 203 ACS at age 18 up to around 219 ACS at age 28. However, the data points show widespread variance across all age brackets, resulting in an MSE of 316.53 and an R-squared score of -0.09, proving that age alone is not a reliable predictor for combat performance.
 
-![Classification Tree Player Age predicting In-Game Role](decision_tree.png)
+![Classification Tree Player Age predicting In-Game Role](ctree.png)
 
 Building on that baseline, the Decision Tree Classifier predicts player in-game roles based on age splits, achieving an overall accuracy of 30% (0.30) on the test set. The tree sets clear decision boundaries at age thresholds of <= 21.5, <= 20.5, <= 24.5, and <= 26.5. Duelist (class 0) performed best with a precision of 0.67 and recall of 0.50 (F1-score of 0.57). Younger age branches (<= 20.5) lean toward Initiators and Duelists, while older decision nodes (<= 24.5 and <= 26.5) shift players into Controller and Sentinel categories.
 
